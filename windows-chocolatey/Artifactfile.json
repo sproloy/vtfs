@@ -8,13 +8,6 @@
         "Chocolatey"
     ],
     "targetOsType": "Windows",
-    "parameters": {
-        "packages": {
-            "type": "string",
-            "displayName": "Packages",
-            "description": "Comma delimited list of package names to be installed, for example: 7Zip,Fiddler4. A complete list of public packages can be found at https://chocolatey.org/packages."
-        }
-    },
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./ChocolateyPackageInstaller.ps1']"
     }
